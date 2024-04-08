@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <title>Movie</title>
+  </head>
+  <body>
+    <header>
+      <h1>Can you complete the top 100 best movies game? So let's start...</h1>
+    </header>
+    <main>
+      <div class="restartButton none">
+        <button>Reset</button>
+      </div>
+      <div class="movie">
+        <div class="movie_img">
+          <img id="movieId" src="" alt="movieImg" />
+        </div>
+        <div class="movie_text">
+          <div id="countId" class="text-head">10</div>
+          <div id="falseId" class="text-false"></div>
+          <div id="nameId" class="text-main"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="win none">Congratulations you won!..</div>
+      <div class="lose none">you're defeated.</div>
+      <div class="same none">
+        You are entering the same letter, please enter another letter
+      </div>
+    </footer>
+    <script src="./movie.js"></script>
+  </body>
+</html>
